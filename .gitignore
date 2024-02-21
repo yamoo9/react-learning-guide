@@ -1,0 +1,8 @@
+.DS_Store
+.vite
+.env
+.env.production
+
+node_modules
+build
+dist

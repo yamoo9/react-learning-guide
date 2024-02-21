@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "react-learning-guide",
+  "version": "0.1.0",
+  "description": "리액트 러닝 가이드",
+  "scripts": {
+    "dev": "pnpm --stream -r dev",
+    "dev:client": "pnpm --filter \"./client\" dev",
+    "dev:server": "pnpm --filter \"./server\" dev",
+    "build": "pnpm --stream -r build",
+    "build:client": "pnpm --filter \"./client\" build",
+    "preview": "pnpm --stream -r preview",
+    "preview:client": "pnpm --filter \"./client\" preview"
+  }
+}

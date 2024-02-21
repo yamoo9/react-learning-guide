@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "react-learning-guide-client",
+  "description": "리액트 라이브러리를 사용해 사용자 인터페이스를 구축하는 방법을 학습합니다.",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "vite": "5.1.3"
+  }
+}
