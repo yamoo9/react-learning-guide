@@ -75,7 +75,7 @@
 
   "typescript.autoClosingTags": true,
   "typescript.format.enable": false,
-  "typescript.validate.enable": false,
+  "typescript.validate.enable": true,
   "typescript.check.npmIsInstalled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.format.insertSpaceAfterTypeAssertion": true,
@@ -105,12 +105,12 @@
 
   // "editor.formatOnSave": false,
 
-  "htmlhint.enable": false,
+  // "htmlhint.enable": false,
   // "postcss.enable": false,
   // "eslint.enable": false,
 
-  // "errorlens.enabled": false,
-  // "errorlens.exclude": ["**/*.css"],
+  "errorLens.enabled": false,
+  "errorLens.exclude": ["**/*.css"],
 
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,

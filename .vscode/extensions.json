@@ -3,7 +3,7 @@
     
     /* HTML --------------------------------------------------------------------- */
     
-    // "HTMLHint.vscode-htmlhint",
+    "HTMLHint.vscode-htmlhint",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     
