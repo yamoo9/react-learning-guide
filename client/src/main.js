@@ -1,5 +1,7 @@
 import './styles/globals.css';
 
+const CLIENT_ONLY = globalThis.__RUN_MODE__ === 'clientOnly';
+
 async function main() {
   const response = await fetch('/api/posts?page=1');
   if (response.ok) {
@@ -12,4 +14,6 @@ async function main() {
   }
 }
 
-main();
+if (!CLIENT_ONLY) {
+  main();
+}

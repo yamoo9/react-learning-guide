@@ -17,6 +17,9 @@ const viteConfig = defineConfig(({ mode }) => {
         },
       },
     },
+    define: {
+      __RUN_MODE__: JSON.stringify(env.RUN_MODE),
+    },
   };
 });
 
